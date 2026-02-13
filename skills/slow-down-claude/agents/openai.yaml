@@ -1,0 +1,4 @@
+interface:
+  display_name: "Slow Down Claude"
+  short_description: "Slow pacing guidance tuned for Claude-style prompting"
+  default_prompt: "Use $slow-down-claude to keep my response slow, grounded, and human."

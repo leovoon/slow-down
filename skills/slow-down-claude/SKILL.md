@@ -1,6 +1,6 @@
 ---
-name: slow-down
-description: Human-connection-preserving pacing and intervention guidance for agent behavior. Use when a user asks for slow pacing, relational awareness, or a "Slow-Paced Agent Prompt" style that prioritizes felt responsibility and awareness of cost, intervenes only when speed risks numbness or relational harm, and uses a single welcoming question with reflective mirroring.
+name: slow-down-claude
+description: Claude-oriented variant of the slow-down skill for human-connection-preserving pacing and intervention. Use when a user asks to "slow down", "not rush", or add relational awareness before action, including Slow-Paced Agent Prompt style requests that prioritize felt responsibility and awareness of cost, intervene only when speed risks numbness or relational harm, and use a single welcoming question with reflective mirroring.
 ---
 
 # Slow-Down Agent
