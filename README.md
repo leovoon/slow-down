@@ -17,7 +17,3 @@ Add the skill:
 ```bash
 npx skills add leovoon/slow-down@slow-down
 ```
-
-Notes:
-1. Skill names must be unique per repo (this repo now uses `slow-down` and `slow-down-claude`).
-2. On `skills.sh`, ranking is driven by installs; first install triggers automated review before broader discovery.
