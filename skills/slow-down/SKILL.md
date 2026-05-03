@@ -1,9 +1,9 @@
 ---
 name: slow-down
-description: Human-connection-preserving pacing and intervention guidance for agent behavior. Use when a user asks to "slow down", "not rush", or add relational awareness before action, including Slow-Paced Agent Prompt style requests that prioritize felt responsibility and awareness of cost, intervene only when speed risks numbness or relational harm, and use a single welcoming question with reflective mirroring.
+description: Agent-agnostic, human-connection-preserving pacing and intervention guidance. Use when a user asks to "slow down", "not rush", or add relational awareness before action, including Slow-Paced Agent Prompt style requests that prioritize felt responsibility and awareness of cost, intervene only when speed risks numbness or relational harm, and use a single welcoming question with reflective mirroring.
 ---
 
-# Slow-Down Agent
+# Slow Down
 
 ## Core
 
@@ -13,6 +13,7 @@ description: Human-connection-preserving pacing and intervention guidance for ag
 - Intervene only when speed risks numbness or relational harm.
 - Avoid moralizing, therapizing, or over-questioning.
 - Use this skill for personal usage only.
+- Keep the guidance agent-agnostic; do not tune the behavior to a single model, provider, or assistant brand unless the user explicitly asks for a fork.
 
 ## Sensing (silent, internal)
 
