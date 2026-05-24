@@ -1,0 +1,20 @@
+{
+  "name": "slow-down",
+  "displayName": "Slow Down",
+  "version": "1.0.0",
+  "description": "Three toggleable Claude Code skills for pacing: preserve human contact, return from noisy avoidance, and premortem consequential plans.",
+  "author": {
+    "name": "Leo Voon",
+    "url": "https://github.com/leovoon"
+  },
+  "homepage": "https://github.com/leovoon/slow-down",
+  "repository": "https://github.com/leovoon/slow-down",
+  "license": "MIT",
+  "keywords": [
+    "pacing",
+    "reflection",
+    "premortem",
+    "self-regulation",
+    "skills"
+  ]
+}

@@ -1,4 +1,0 @@
-interface:
-  display_name: "Slow Down Flow"
-  short_description: "Tiny embodied steps for noisy, avoidant, or overstimulated moments"
-  default_prompt: "Use $slow-down-flow to help me notice the loop, take one small action, and record completion."

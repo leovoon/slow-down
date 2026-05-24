@@ -32,6 +32,8 @@ Let imagined failure reveal contact, then come back.
 
 ## Current Skills
 
+As a Claude Code plugin, Slow Down contains three separately invokable skills: `/slow-down`, `/slow-down-flow`, and `/slow-down-crosswind`.
+
 | Skill | Use it for | Folder |
 | --- | --- | --- |
 | Slow Down | Agent pacing. It helps an agent preserve human connection, avoid rushing relational or identity-forming moments, and intervene only when speed risks numbness or bypassed understanding. | `skills/slow-down` |
@@ -63,30 +65,35 @@ The work becomes evidence.
 
 ## Manual install
 
-1. Download or clone this repository.
-2. Open the `skills/` folder.
-3. Copy the skill folder you want into your agent's skills directory.
-4. Restart or reload your agent so it discovers the new skill.
-
-For example, to install only the main pacing skill, copy:
+Once published in the Claude community marketplace, install the plugin from Claude Code:
 
 ```text
-skills/slow-down
+claude plugin install slow-down
 ```
 
-To install every skill in this collection, copy all folders inside `skills/`.
+For local testing from a clone of this repository:
+
+```text
+claude --plugin-dir .
+```
+
+The skill folders remain plain `SKILL.md` directories. If your agent supports manual skill installation, you can still copy individual folders from `skills/`.
 
 ## How to use the skills
 
-Invoke the skill name when you want the agent to shift posture:
+Invoke the skill shortcut when you want the agent to shift posture:
 
 ```text
-Use $slow-down before we draft this message.
-Use $slow-down-flow; I want to act before posting about it.
-Use $slow-down-crosswind; stress test this plan without turning it into fear.
+/slow-down Help me draft this hard message without flattening the person receiving it.
+/slow-down-flow I am scattered and want to post the plan before doing it. Help me take one tiny action first.
+/slow-down-crosswind Premortem this launch plan without turning it into fear.
 ```
 
-The exact invocation syntax depends on your agent, but the folder names are the stable skill names.
+The folder names are the stable skill names.
+
+## Scope note
+
+Slow Down is reflective guidance, not therapy, diagnosis, crisis support, or medical advice.
 
 ## Design principles
 
@@ -102,14 +109,21 @@ The exact invocation syntax depends on your agent, but the folder names are the 
 ## Repository layout
 
 ```text
+.claude-plugin/
+  plugin.json
 skills/
   slow-down/
   slow-down-flow/
   slow-down-crosswind/
-  ...
+LICENSE
+CHANGELOG.md
 ```
 
-Each skill folder contains a `SKILL.md` file. Some folders also include `agents/openai.yaml` metadata for agent interfaces that support it.
+Each skill folder contains a `SKILL.md` file.
+
+## License
+
+MIT. See `LICENSE`.
 
 ## The long game
 

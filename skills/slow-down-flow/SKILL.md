@@ -1,6 +1,6 @@
 ---
 name: slow-down-flow
-description: Use this skill when the user feels mentally noisy, overstimulated, avoidant, tempted to announce an intention before acting, or caught between speed and slowness. This skill helps the user return to a better internal state through compassionate self-regulation, small embodied action, and post-action reflection.
+description: Reset flow for noisy, avoidant, overstimulated moments. Helps user take one tiny embodied action before announcing or optimizing.
 ---
 
 # Slow-Down Flow

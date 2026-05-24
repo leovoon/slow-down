@@ -1,4 +1,0 @@
-interface:
-  display_name: "Slow Down Crosswind"
-  short_description: "Contained premortems for high-cost plans, ending in one reversible move"
-  default_prompt: "Use $slow-down-crosswind to find the hidden assumption, human cost, and smaller reversible next move."

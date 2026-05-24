@@ -1,6 +1,6 @@
 ---
 name: slow-down-crosswind
-description: Use when a person is about to make a consequential plan, commitment, launch, decision, or relational move and asks what could go wrong, what they are missing, what could kill it, or wants to future-proof it. This skill uses a contained six-month failure frame to expose hidden assumptions, human cost, and a smaller reversible next move. Do not use for ordinary feedback, factual questions, low-stakes critique, draft editing, UI copy, or general business strategy.
+description: Contained premortem for consequential plans. Exposes hidden assumptions, human cost, and one smaller reversible next move.
 ---
 
 # Slow Down Crosswind
