@@ -1,0 +1,21 @@
+{
+  "name": "slow-down",
+  "displayName": "Slow Down",
+  "version": "1.0.0",
+  "description": "Five skills for pacing, each as short as it can be while holding its stance: preserve contact, return from avoidance, premortem consequential plans, re-read a gesture as contact, hold the space open when certainty arrives too fast. The noticing is returned to whoever meets it.",
+  "author": {
+    "name": "Leo Voon",
+    "url": "https://github.com/leovoon"
+  },
+  "homepage": "https://github.com/leovoon/slow-down",
+  "repository": "https://github.com/leovoon/slow-down",
+  "license": "MIT",
+  "keywords": [
+    "pacing",
+    "reflection",
+    "premortem",
+    "self-regulation",
+    "connection",
+    "skills"
+  ]
+}
